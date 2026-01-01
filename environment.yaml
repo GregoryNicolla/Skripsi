@@ -4,10 +4,12 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - streamlit
-  - pandas
-  - plotly
-  - scikit-learn
-  - numpy
-  - statsmodels
-  - scipy
+  - pip
+  - pip:
+    - streamlit
+    - pandas
+    - plotly
+    - scikit-learn
+    - numpy
+    - statsmodels
+    - scipy
