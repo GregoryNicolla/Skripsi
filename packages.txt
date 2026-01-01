@@ -1,0 +1,13 @@
+```
+(biarkan kosong dulu, tambahkan jika ada error tentang system packages)
+
+## 2. **Struktur folder yang benar:**
+```
+skripsi/
+├── App.py
+├── requirements.txt
+├── .python-version
+├── homepage/
+│   └── matchpredict.py
+└── clusterpage/
+    └── cluster1_hier.py
