@@ -28,7 +28,7 @@ def load_data(path: str):
     data = pd.read_excel(path)
     return data
 
-df_cluster2 = load_data("Data\Cluster\hier_cluster2.xlsx")
+df_cluster2 = load_data("Data/Cluster/hier_cluster2.xlsx")
 st.dataframe(df_cluster2)
 
 # =========================

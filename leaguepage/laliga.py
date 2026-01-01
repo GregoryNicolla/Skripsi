@@ -11,7 +11,7 @@ def load_data(path: str):
     data = pd.read_excel(path)
     return data
 
-df_laliga = load_data("Data\League Stat\Laliga.xlsx")
+df_laliga = load_data("Data/League Stat/Laliga.xlsx")
 st.dataframe(df_laliga)
 
 # =========================
