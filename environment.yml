@@ -13,3 +13,4 @@ dependencies:
     - numpy
     - statsmodels
     - scipy
+    - openpyxl>=3.1.0
